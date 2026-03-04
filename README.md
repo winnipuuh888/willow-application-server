@@ -48,3 +48,8 @@ docker cp build/willow.bin willow-application-server:/app/storage/ota/local/ESP3
 ```
 
 Your provided build will now be available as the "local" release under the various upgrade options available in the Willow Web UI. You can copy new builds and upgrade however you see fit as you do development and create new Willow builds. If you run into a boot loop, bad flash, etc you can always recover your device from the Willow Web Flasher or Willow build system and try again.
+
+
+# Fork from org. WAS
+
+A fork from the original repository. The goal is to implement additional wakewords.
